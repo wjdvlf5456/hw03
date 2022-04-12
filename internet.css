@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+	*{
+		font-family:"맑은 고딕";
+		font-size: 17px;
+	}
+	
+	body, div, dl, dt, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table, th, td, tr, textarea, button, form {
+		margin: 0; padding: 0;
+	}
+
+	h1 {font-size: 30px; font-family: "궁서체"; letter-spacing: 15px;}
+	h2 {font-size: 25px; line-height: 50px;}
+	h3 {font-size: 20px; line-height: 35px;}
+	
+/* color */
+	.red {color: #ff0000;}
+	.green {color: #00FF00;}
+	.blue {color: #0000FF;}
+	
+/* linestyle */
+	.line-o {text-decoration: overline;}
+	.line-t {text-decoration: line-through;}
+	.line-u {text-decoration: underline;}
+	
+/* 단위넣기 */
+	td+td:before {content:"약"}
+	td+td:after {content:"(MB/초)"}
+	
+/* 텍스트 정렬하기 */
+	.txt-lft {text-align: left;}
+	.txt-rgt {text-align: right;}
+	.txt-cen {text-align: center;}
+	.txt-jst {text-align: justify;}
+	
+/* 문단내에 들여쓰기 */
+	#history>p {text-indent: 30px;}
+	
+/* 블릿 지정하기 */
+	.bult-n{list-style-type: none;}
+	.bult-d{list-style-type: disc;}
+	.bult-c{list-style-type: circle;}
+	.bult-s{list-style-type: square;}
+	
+	ol li {list-style-type: none;}
+	ul li {list-style-type: square;}
+	
+/* background */
+	#history {background-color: #D9D9D9;}
+	thead {background-color: #C8EBFA;}
+	
+/* 폰트 굵기 */
+	.bold-n {font-weight: normarl;}
+	.bold-l {font-weight: lighter;}
+	.bold-b {font-weight: bold;}
+	.bold-bb {font-weight: bolder;}
+	
+/* 글꼴 스타일 정하기 */
+	.fonst-n{font-style: normal;}
+	.fonst-i{font-style: italic;}
+	.fonst-o{font-style: oblique;}
+	
+/* 링크관련 */
+	tbody>tr:hover { background-color: #EDD3ED;}
+	table a:link {color: #000000; text-decoration: none;}
+	table a:hover {color: #0000FF; text-decoration: underline;}
+	table a:visited {color: #000000; text-decoration: none;}
+	table a:active {color: #0000FF; text-decoration: underline;}
